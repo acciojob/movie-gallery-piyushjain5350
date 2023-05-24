@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+/* .fluid{
+	display:grid;
+	width:100%;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	row-gap:20px;
+} */
+.fluid .item-12{
+	display:grid;
+	grid-template-columns:repeat(12,1fr);
+	row-gap:20px;
+}
+.fluid .item-6{
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	row-gap:20px;
+}
+.fluid .item-3{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	row-gap:20px;
+}
+.fluid .item .image img{
+	width:100px;
+	height:100px;
+}
