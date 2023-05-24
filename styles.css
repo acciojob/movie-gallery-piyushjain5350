@@ -1,27 +1,20 @@
-
-/* Your CSS Code here. */
-/* .fluid{
-	display:grid;
-	width:100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	row-gap:20px;
-} */
-/* .fluid .item-12{
-	display:grid;
-	grid-template-columns:repeat(12,1fr);
-	row-gap:20px;
-}
-.fluid .item-6{
-	display:grid;
-	grid-template-columns:repeat(6,1fr);
-	row-gap:20px;
-}
-.fluid .item-3{
-	display:grid;
-	grid-template-columns:repeat(3,1fr);
-	row-gap:20px;
-}
-.fluid .item .image img{
+img{
 	width:100px;
 	height:100px;
-} */
+}
+.container-fluid .r1{
+	display:grid;
+	grid-template-columns:repeat(12,1fr);
+}
+.container-fluid .r2{
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+}
+.container-fluid .r3{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+}
+.container-fluid .r4{
+	display:grid;
+	grid-template-columns:repeat(1,1fr);
+}
